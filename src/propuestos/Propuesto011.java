@@ -17,20 +17,20 @@ public class Propuesto011 {
         System.out.println("*****  Programa que determina si la diagonal de dos"
                 + " matrices son iguales *****");
         
-        int [][] matrizA = new int[12][12];
-        int [][] matrizB = new int[12][12];
+        //int [][] matrizA = new int[12][12];
+        //int [][] matrizB = new int[12][12];
         
-        /*
+        //*Matrices de prueba
         int [][] matrizA = {{1,2,3},
                             {4,5,6},
                             {7,8,9}};
         int [][] matrizB = {{1,2,3},
                             {4,5,6},
                             {7,8,10}};
-        */
+        
         
         Scanner n = new Scanner(System.in);
-        
+        /*
         System.out.println("***** LLENADO DE MATRIZ A *****\n");
         
         for(int i=0; i<matrizA.length; i++){
@@ -48,7 +48,7 @@ public class Propuesto011 {
                 matrizB[i][j] = n.nextInt();
             }
         }
-                
+        */        
         boolean diagonalPrincipal = false;
         
         for(int i=0; i<matrizA.length; i++){
@@ -63,8 +63,12 @@ public class Propuesto011 {
             
         }
         
-        if (diagonalPrincipal == true) System.out.println("\nLAS DIAGONALES PRINCIPALES"
-                + " DE LOS ARREGLOS SON IGUALES");
-        else System.out.println("\nLAS DIAGONALES PRINCIPALES DE LOS ARREGLOS NO SON IGUALES");
+        if (diagonalPrincipal == true){
+            System.out.println("\nLAS DIAGONALES PRINCIPALES DE LOS ARREGLOS SON IGUALES");
+        }
+        else{
+            System.out.println("\nLAS DIAGONALES PRINCIPALES DE LOS ARREGLOS NO SON IGUALES");
+        }
+        
     }
 }

@@ -19,7 +19,8 @@ public class Propuesto009 {
                 + "\n*El total de elementos negativos en las columnas de la quinta a la nueve.\n");
         
        int arreglo [][] = new int[15][12];
-       /*int arreglo [][] = {{1,2,3,4,5,6,7,8,9,0,1,2},
+       /*Arreglo de prueba
+       int arreglo [][] = {{1,2,3,4,5,6,7,8,9,0,1,2},
                            {-1,-2,-3,-4,-5,-6,-7,-8,-9,0,-1,-2},
                            {1,2,3,4,5,6,7,8,9,0,1,2},
                            {-1,-2,-3,-4,-5,-6,-7,-8,-9,0,-1,-2},
@@ -33,7 +34,8 @@ public class Propuesto009 {
                            {-1,-2,-3,-4,-5,-6,-7,-8,-9,0,-1,-2},
                            {1,2,3,4,5,6,7,8,9,0,1,2},
                            {-1,-2,-3,-4,-5,-6,-7,-8,-10,0,-1,-2},
-                           {1,2,3,4,5,6,7,8,9,0,1,2}};*/
+                           {1,2,3,4,5,6,7,8,9,0,1,2}};
+       */
        
        
        Scanner n = new Scanner(System.in);

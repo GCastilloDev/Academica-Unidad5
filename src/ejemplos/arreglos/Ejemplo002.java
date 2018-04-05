@@ -11,6 +11,8 @@ public class Ejemplo002 {
     entre 0 y 9. 
     */
     public static void main(String[] args) {
+        System.out.println("*** Programa que cuenta la cantidad de ceros introducidos"
+                + " en la matriz ***");
         
         int arreglo[][] = new int[4][4];
         

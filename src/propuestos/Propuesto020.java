@@ -52,7 +52,7 @@ public class Propuesto020 {
                 matrizB[i][j] = n.nextInt();
             }
         }
-               
+            
         //Resultado de la multiplicación de elemento por elemento de la diagonal de la matriz
         System.out.println("*** RESULTADO DE LA MULTIPLIACIÓN DE ELEMENTO POR ELEMENTO DE LA DIAGONAL ***");
         for (int i=0; i<matrizA.length; i++){

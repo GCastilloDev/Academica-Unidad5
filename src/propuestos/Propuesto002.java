@@ -22,7 +22,7 @@ public class Propuesto002 {
         System.out.print("Ingrese el número de columnas de la matriz B: ");
         int columnasB = n.nextInt();
         
-        if (columnasA!=filasB){          
+        if (columnasA==filasB){          
             
             int matrizA[][] = new int [filasA][columnasA];//Se crea la matriz A
             int matrizB[][] = new int [filasB][columnasB];//Se crea la matriz B
@@ -64,7 +64,10 @@ public class Propuesto002 {
             }                   
         }//Fin if
         
+        else{
         System.out.println("****NO SE PUEDE OBTENER EL PRODUCTO DE LA MATRIZ A Y LA MATRIZ B****");
+        }
+        
     }
     
 }

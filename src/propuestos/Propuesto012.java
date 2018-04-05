@@ -16,10 +16,11 @@ public class Propuesto012 {
                 + "en una matriz y los cambia por cero ****");
         
         int [][] matriz = new int[12][19];     
-        /*
-        int [][] matriz = {{1,2,3},
-                            {4,-1,6},
-                            {7,8,9}};
+        
+        /*Matriz de prueba
+        int [][] matriz = {{1,2,3,4,5,6,7,8,9,-1},
+                           {4,-1,6,8,10,11,12,19,-1,10},
+                           {-1,1,2,3,4,5,6,7,8,9}};
         */    
         
         Scanner n = new Scanner(System.in);
@@ -32,7 +33,7 @@ public class Propuesto012 {
                 matriz[i][j] = n.nextInt();
             }
         }        
-           
+        
         //Cambia los negativos de la matriz por cero
         for(int i=0; i<matriz.length; i++){
             for(int j=0; j<matriz[i].length; j++){
@@ -46,7 +47,7 @@ public class Propuesto012 {
         System.out.println("\n***** MATRIZ NUEVA *****\n");
         for(int i=0; i<matriz.length; i++){
             for(int j=0; j<matriz[i].length; j++){
-                System.out.print(matriz[i][j] + " ");
+                System.out.print(matriz[i][j] + "\t");
                 }
             System.out.println("");
         }
